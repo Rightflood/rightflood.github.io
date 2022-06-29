@@ -1,102 +1,104 @@
 <!DOCTYPE html>
 <html>
-				<head>
-								<title>TheMechStore.com</title>
-								<link rel="stylesheet" href="style.css">
-								<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <meta name="viewport" content= "width=device-width, initial-scale=1"/>
-				</head>
-				<body>
+  <head>
+    <title>TheMechStore.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <meta name="viewport" content= "width=device-width, initial-scale=1"/>
+  </head>
+  <body>
 								
-										<!-- MENU -->
+<!-- MENU -->
 								
-								<div class="menucontainer" id="menucontainer">
-								<div class="menu" id="menu">
-												<div class="menuheader">
+  <div class="menucontainer" id="menucontainer">
+    <div class="menu" id="menu">
+    <div class="menuheader">
 																
-																<img class="menulogo" src="images/logo.png">
+    <img class="menulogo" src="logo.png">
 																
-																<h3 class="menutms">TheMechStore</h3>
+    <h3 class="menutms">TheMechStore</h3>
 																
-												</div>
-												<ul>
-																<li><a href="index.html">Home</a></li>
-																<li><a href="#">Home</a></li>
-																<li><a href="#">Home</a></li>
-																<li><a href="#">Home</a></li>
-												</ul>
-								</div>
+    </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </div>
 								
-								<div class="closemenu">
+    <div class="closemenu">
 												
-												<span class="material-icons closemenu" onclick="closemenu()">close</span>
+      <span class="material-icons closemenu" onclick="closemenu()">close</span>
 												
-								</div>
-								</div>
+    </div>
+  </div>
 								
-								<!-- HEADER -->
+<!-- HEADER -->
 								
-								<header>
+  <header>
 												
-												<span class="material-icons menuicon" onclick="openmenu()"> menu</span>
+    <span class="material-icons menuicon" onclick="openmenu()"> menu</span>
 												
-												<div class="logohome">
-											 <a href="index.html">	<img class="logo" src="images/logo.png">
+    <div class="logohome">
+    <a href="index.html">	
+      <img class="logo" src="images/logo.png">
+      <h2 class="tms">TheMechStore</h2>
+    </a>
+    </div>
 												
-												<h2 class="tms">TheMechStore</h2></a>
-												</div>
+  <span class="material-icons account"><a href="account.html">person</a></span>
 												
-												<span class="material-icons account"><a href="account.html">person</a></span>
+  <span class="material-icons cart"><a href="cart.html">shopping_cart</a></span>
 												
-												<span class="material-icons cart"><a href="cart.html">shopping_cart</a></span>
-												
-								</header>
+  </header>
 								
 						
 								
-								<!-- SEARCHBAR -->
+<!-- SEARCHBAR -->
 								
-								<div class="searchbar">
-												<input placeholder="search items" type="search" id="search">
+  <div class="searchbar">
+    <input placeholder="search items" type="search" id="search">
 												
-												<span class="material-icons searchicon">search</span>
-								</div>
+    <span class="material-icons searchicon">search</span>
+  </div>
 								
-								<!-- SPECIAL OFFERS -->
-								
-								
-								
-								<!-- CATEGORY -->
+<!-- SPECIAL OFFERS -->
 								
 								
-								<!-- PRODUCTS -->
+								
+<!-- CATEGORY -->
 								
 								
-								<!-- FOOTER -->
+<!-- PRODUCTS -->
 								
-								<footer>
+								
+<!-- FOOTER -->
+								
+<footer>
 												
-								</footer>
+</footer>
 								
-								<!-- SCRIPT -->
+<!-- SCRIPT -->
 								
-								<script>
-								function openmenu() {
+<script>
+function openmenu() {
 				
-				var div = document.getElementById ("menucontainer"); div.style.visibility="visible";   div.style.backgroundColor="rgb(0, 0, 0, 0.8)"; div.style.WebkitTransition="background-color 1s, visibility 0s ease 0s";
+var div = document.getElementById ("menucontainer"); div.style.visibility="visible";   div.style.backgroundColor="rgb(0, 0, 0, 0.8)"; div.style.WebkitTransition="background-color 1s, visibility 0s ease 0s";
 				
-	document.getElementById("menu").style.width="60vw"
+document.getElementById("menu").style.width="60vw"
 				
 }
-      function closemenu() {
+
+function closemenu() {
 				
-						var div = document.getElementById ("menucontainer"); div.style.visibility="hidden";   div.style.backgroundColor="rgb(0, 0, 0, 0)"; div.style.WebkitTransition="background-color 1s, visibility 0s ease 1s";
+var div = document.getElementById ("menucontainer"); div.style.visibility="hidden";   div.style.backgroundColor="rgb(0, 0, 0, 0)"; div.style.WebkitTransition="background-color 1s, visibility 0s ease 1s";
 				
-				document.getElementById("menu").style.width="0vw"
+document.getElementById("menu").style.width="0vw"
 				
 				
 }
-     </script>
-				</body>
+</script>
+</body>
 </html>
