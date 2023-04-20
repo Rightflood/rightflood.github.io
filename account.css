@@ -1,0 +1,226 @@
+/* FORM */
+.logohome1 {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+.logo1 {
+  width: 30px;
+}
+.signupclosebtn {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.loginclosebtn {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.material-icons.signupcloseicon {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: none;
+  position: relative;
+  left: 10px;
+  top: 94px;
+}
+.material-icons.logincloseicon {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: none;
+  position: relative;
+  left: 10px;
+  top: 94px;
+}
+.signupbackground {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+  visibility: hidden;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0);
+  transition: background-color 0.5s;
+}
+.loginbackground {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 4;
+  visibility: hidden;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0);
+  transition: background-color 0.5s;
+}
+.signupform {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  left: 24px;
+}
+.loginform {
+  width: 100%;
+  min-height: 100%;
+  display: block;
+  left: 24px;
+}
+.createacctext {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: default;
+}
+.createacctext h4 {
+  color:var(--txt-color);
+}
+.signupformc {
+  padding-bottom: 20px;
+  opacity: 0;
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  top: 69px;
+  background-color: var(--body-color);
+  height: fit-content;
+  min-width: 350px;
+  display: block;
+  position: relative;
+  transition: opacity 0.5s;
+}
+.loginformc {
+  padding-bottom: 20px;
+  opacity: 0;
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  top: 69px;
+  background-color: var(--body-color);
+  height: fit-content;
+  min-width: 350px;
+  display: block;
+  position: relative;
+  transition: opacity 0.5s;
+}
+.liop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.liop h5 button {
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 10px;
+  border: solid var(--body-color) 1px;
+  background: none;
+  transition: all 0.5s;
+}
+.liop h5 button:hover {
+  box-shadow: 3px 3px 5px -2px #ffd700, -3px 3px 5px -2px #ffd700;
+  border: solid #ffd700 1px;
+}
+.formlabel {
+  cursor: default;
+  overflow: hidden;
+  position: relative;
+  left: 18px;
+  color: var(--txt-color);
+  height: 20px;
+  min-width: 100%;
+  transition: opacity 0.5s;
+}
+.signuplicontainer {
+  min-width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signupli {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.signupli1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.signupli input {
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  color: black;
+  cursor: text;
+  padding: 8px;
+  width: 95%;
+  outline: none;
+  background-color: var(--body-color);
+  transition: all 0.5s;
+}
+.signupli .input {
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  padding: 8px;
+  width: 95%;
+  outline: none;
+  background-color: var(--body-color);
+  transition: all 0.5s;
+}
+.intTel {
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  padding: 8px;
+  width: 20%;
+  outline: none;
+  background-color: white;
+  transition: all 0.5s;
+}
+.phone {
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  color: black;
+  cursor: text;
+  padding: 8px;
+  width: 75%;
+  outline: none;
+  background-color: white;
+  transition: all 0.5s;
+}
+.smbtn {
+  border: #ffd700 solid 1px;
+  border-radius: 10px;
+  color: var(--txt-color);
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 20px;
+  width: 25%;
+  outline: none;
+  background-color: var(--body-color);
+  transition: all 0.5s;
+}
+.smbtn:hover {
+  box-shadow: 3px 3px 5px -2px #ffd700, -3px 3px 5px -2px #ffd700;
+}
+.signupli input:hover {
+  box-shadow: 3px 3px 5px -2px #ffd700, -3px 3px 5px -2px #ffd700;
+}
+.signupli input:focus {
+  box-shadow: 3px 3px 5px -2px #ffd700, -3px 3px 5px -2px #ffd700;
+}
+.signupli .input:hover {
+  box-shadow: 3px 3px 5px -2px #ffd700, -3px 3px 5px -2px #ffd700;
+}
+.signupli .input:focus {
+  box-shadow: 3px 3px 5px -2px #ffd700, -3px 3px 5px -2px #ffd700;
+}
